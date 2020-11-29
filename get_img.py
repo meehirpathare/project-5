@@ -18,4 +18,4 @@ def get_img(object_id, path, return_meta=False):
              'img_url': url,
              'is_public': is_public
             }
-        return j
+        return j 

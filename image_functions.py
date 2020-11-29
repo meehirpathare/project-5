@@ -9,14 +9,25 @@ from colormath.color_conversions import convert_color
 from colormath.color_diff import delta_e_cie2000
 
 def get_dims(img, rgb = False):
-    if rgb == True:
-        return img.shape
-    else:
-        return img.shape[0:2]
+    """   
+    Parameters:
+    img (np.ndarray): array representation of an image
+    
+    Returns: tuple of dimensions (height, width)
+    """
+    return img.shape[0:2]
 
 def resize(img, width, height):
+    """
+    Parameters:
+    img (np.ndarray): array representation of an image
+    width (int): px width of resized image
+    height (int): px height of resized image 
+
+    Returns: ndarray representation of resized image
+    """
     resized_img = cv2.resize(img, (width, height))
-    return resize_img
+    return resized_img
 
 def show_image(img):
     plt.imshow(img)
