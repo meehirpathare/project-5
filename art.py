@@ -1,18 +1,20 @@
 from PIL import Image
+import PIL
 import cv2
 from datetime import datetime 
 import numpy as np
 from skimage import io
+import skimage
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import os
 from IPython.display import display
+import colormath
 from colormath.color_objects import sRGBColor, LabColor
 from colormath.color_conversions import convert_color
 from colormath.color_diff import delta_e_cie2000
 
 class Art:
-    
     def __init__(self):
         self.palette =  {
                 'sky blue': (113, 213, 248),
@@ -44,6 +46,32 @@ class Art:
         self.color_list = np.array([tuple(x) for x in self.palette.values()], dtype=np.uint8)
         self.data_path = os.getcwd() + "\\data\\"
         self.image_path = os.getcwd() + "\\images\\"
+        self.num_colors = len(self.color_list)
+        self.PIL = PIL
+        self.cv2 = cv2
+        self.np = np
+        self.skimage = skimage
+        self.plt = plt
+        self.mpimg = mpimg
+        self.display = display
+        self.mpimg = mpimg
+        self.colormath = colormath
+        self.attributes = list(self.__dict__.keys())
+        self.display = display
+        self.module_list = ['PIL', 'cv2', 'np', 'skimage', 'mpimg', 'colormath', 'display']
+
+    def add_attr(self, name: str, val):
+        setattr(self, name, val)
+        attributes = list(self.__dict__.keys())
+        self.attributes = attributes.remove('attributes')
+        return attributes
+
+    def add_module(self, name: str, module: object):
+        setattr(self, name, module)
+        attributes = list(self.__dict__.keys())
+        self.attributes = attributes.remove('attributes')
+        self.modules = self.module_list.append(name)
+        return attributes
 
     def set_cmaps(self, cmap):
         self.cmaps = cmap
@@ -128,12 +156,12 @@ class Art:
         fig.set_axis_off()
         plt.show()
 
-    def get_dominant_color(self, pil_img, palette_size=20, comp_time=False):
+    def get_dominant_color(self, pil_img, thumbnail_size = (100, 100), palette_size=20, comp_time=True):
         # https://stackoverflow.com/questions/3241929/python-find-dominant-most-common-color-in-an-image
         start = datetime.now()
         img = pil_img.copy()
          # Reduce colors (uses k-means internally)
-        img.thumbnail((100, 100))
+        img.thumbnail(thumbnail_size)
         paletted = img.convert('P', palette=Image.ADAPTIVE, colors=palette_size)
         # Find the color that occurs most often
         palette = paletted.getpalette()
@@ -164,7 +192,7 @@ class Art:
 
         return delta_e
     
-    def display_color(self, color_list, **params):
+    def display_color(self, color_list, single_color=False,**params):
         """
         plt
         Parameters:
@@ -172,7 +200,7 @@ class Art:
         shape (tuple): optional parameter to reshape output
         """
 
-        attrs = dir(plt)      
+        attrs = dir(plt)     
 
         if 'shape' in params.keys() and params['shape'][0] * params['shape'][1] == len(color_list): 
             shape = params['shape']
@@ -226,7 +254,7 @@ class Art:
 
         return all_colors 
     
-    def make_color_map(self, filename='', save=False):
+    def make_color_map(self, filename, save=True):
         color_list = self.color_list
         path = self.data_path
 
@@ -238,10 +266,9 @@ class Art:
                 
             closest_color[color] = self.closest_on_palette(color)
         
-        if save == True and filename != '':
+        
             with open(path + filename, 'w') as outfile:
                 outfile.write(str(closest_color))
-                print("Saved {} to {}".format(filename, path))
 
         return closest_color
     

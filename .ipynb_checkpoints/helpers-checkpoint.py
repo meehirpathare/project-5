@@ -122,23 +122,3 @@ def get_channel(img, color):
 
     elif color == 'blue':
         return img[:,:,2]
-
-def get_dominant_color(img_file, palette_size=20, comp_time=False):
-    pil_img = Image.open(img_file)
-
-    start = datetime.now()
-    # Resize image to speed up processing
-    img = pil_img.copy()
- 
-    # Reduce colors (uses k-means internally)
-    paletted = img.convert('P', palette=Image.ADAPTIVE, colors=palette_size)
-
-    # Find the color that occurs most often
-    palette = paletted.getpalette()
-    color_counts = sorted(paletted.getcolors(), reverse=True)
-    palette_index = color_counts[0][1]
-    dominant_color = palette[palette_index*3:palette_index*3+3]
-
-    if comp_time == True:
-        print("Elapsed time:{}".format(datetime.now() - start))
-    return dominant_color
