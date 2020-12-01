@@ -81,7 +81,7 @@ def show_all_channels(img):
     ax3.imshow(get_channel(img, 'blue'), cmap='Blues')
     ax3.set_axis_off()
     
-    subplot.set_axis_off()
+    fig.set_axis_off()
     plt.show()
 
 def get_dominant_color(pil_img, palette_size=20, comp_time=False):

@@ -37,18 +37,6 @@ def color_distance(color_1, color_2):
 
     return delta_e
 
-def closest_on_palette(input_color, palette):
-    dists = []
-    for color in palette.values():
-        val = color_distance(input_color, color)
-        dists.append(val)
-        
-
-    d = dists.index(min(dists)) 
-    closest_color = list(palette.keys())[d]
-    return closest_color
-import math
-
 def display_color(color_list,**params):
     """
     Parameters:
@@ -77,3 +65,42 @@ def display_color(color_list,**params):
     plt.figure(**args)
     io.imshow(palette[indices])
     plt.axis('off')
+
+def palette_distance(input_color, palette):
+    dists = 444 * np.ones(len(palette))
+    
+    for count, color in enumerate(palette.items()):
+        dists[count] = color_distance(input_color, color[1])
+    return dists
+
+def closest_on_palette(input_color, palette):
+    dists = palette_distance(input_color, palette)
+    min_index = np.argmin(dists)
+    return list(palette.keys())[min_index]
+
+def make_color_list(filepath):
+    all_colors = -1 * np.ones((256**3), dtype=object)
+    pos = 0
+    
+    for i in range(0, 256):
+        for j in range(0,256):
+            for k in range(0, 256):  
+                all_colors[pos] = (i, j, k)
+                pos += 1
+    return all_colors 
+
+def make_color_map(color_list, palette, filename, path=''):
+    closest_color = {}
+    
+    start = datetime.now()
+    for counter, color in enumerate(color_list):
+        if counter % 10e3 == 0:
+            print("{}: {} elapsed".format(counter, datetime.now() - start))
+            
+        closest_color[color] = closest_on_palette(color, palette)
+    
+     
+    with open(path + filename, 'w') as outfile:
+        outfile.write(str(closest_color))
+    return closest_color
+    
