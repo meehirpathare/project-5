@@ -59,6 +59,7 @@ class Art:
         self.attributes = list(self.__dict__.keys())
         self.display = display
         self.module_list = ['PIL', 'cv2', 'np', 'skimage', 'mpimg', 'colormath', 'display']
+        
 
     def add_attr(self, name: str, val):
         setattr(self, name, val)
@@ -98,17 +99,19 @@ class Art:
         
         Returns: tuple of dimensions (height, width)
         """
-        return img.shape[0:2]
+        return img.shape
     
-    def resize(self, img, new_dims):
-        try:
-            resized_img = cv2.resize(img, new_dims)
-            return resized_img
-        except:
-            raise ValueError("Could not resize image!")
+    def resize(self, img, dim):
+        return cv2.resize(img, dim)
+
+    def load_img(self, img):
+        im = mpimg.imread(img).astype('uint8')
+        return im
 
     def show_image(self, img):
-      plt.imshow(img)
+        plt.imshow(img)
+        plt.axis('off')
+        plt.show()
 
     def get_color_channel(self, img, color):
         channels = self.channels
@@ -136,6 +139,8 @@ class Art:
 
         img = self.get_color_channel(img, channel)
         plt.imshow(img, cmap=color)
+        plt.axis('off')
+        plt.show()
     
     def show_rgb_channels(self, img):
         img = img.astype('uint8')
@@ -153,11 +158,11 @@ class Art:
         ax3.imshow(self.get_color_channel(img, 'blue'), cmap='Blues')
         ax3.set_axis_off()
         
-        fig.set_axis_off()
         plt.show()
 
-    def get_dominant_color(self, pil_img, thumbnail_size = (100, 100), palette_size=20, comp_time=True):
+    def get_dominant_color(self, img_file, thumbnail_size = (100, 100), palette_size=20, comp_time=True):
         # https://stackoverflow.com/questions/3241929/python-find-dominant-most-common-color-in-an-image
+        pil_img = Image.open(img_file)
         start = datetime.now()
         img = pil_img.copy()
          # Reduce colors (uses k-means internally)

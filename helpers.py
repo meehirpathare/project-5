@@ -97,7 +97,7 @@ def make_color_map(color_list, palette, filename, return_vals=True):
     
     start = datetime.now()
     for counter, color in enumerate(color_list):
-        if counter % 10e3 == 0:
+        if counter % 10e4 == 0:
             print("{}: {} elapsed".format(counter, datetime.now() - start))
             with open(filename, 'w') as outfile:
                 outfile.write(str(closest_color))
