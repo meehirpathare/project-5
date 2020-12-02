@@ -9,7 +9,31 @@ import os
 from colormath.color_objects import sRGBColor, LabColor
 from colormath.color_conversions import convert_color
 from colormath.color_diff import delta_e_cie2000
+import collections
+from itertools import compress
 
+palette = {
+            'sky blue': (113, 213, 248),
+            'ultramarine': (60, 124, 246),
+            'medium blue': (15, 72, 175),
+            'dark blue': (25, 42, 114),
+            'violet': (33, 19, 70),
+            'teal': (14, 67, 73),
+            'green': (15, 66, 35),
+            'leaf green': (88, 135, 31),
+            'light green': (154, 193, 45),
+            'yellow': (255, 252, 35),
+            'orange': (230, 156, 23),
+            'dark orange': (235, 105, 21),
+            'vermillion': (216, 68, 14),
+            'red': (205, 19, 14),
+            'fuchsia': (157, 52, 105),
+            'purple': (107, 32, 86),
+            'dark purple': (84, 20, 57),
+            'dark grey': (110, 110, 110),
+            'light grey': (220, 220, 220),
+            'pale grey': (240, 240, 240)
+            }
 def get_dims(img):
     """   
     Parameters:
@@ -143,3 +167,33 @@ def get_dominant_color(img_file, palette_size=20, comp_time=False):
         print("Elapsed time:{}".format(datetime.now() - start))
 
     return dominant_color
+
+def get_palette():
+    return palette
+
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+        
+def simplify_axis(ax, size=3, return_arr=False, return_centers=True):
+    length = ax.size
+    if is_even(length):
+        length +=1
+        
+    mod = length % size
+    step = size//2
+    
+    centers= np.arange(mod + step, length, size)
+    arr = [np.arange(x-step, x+step+1) for x in centers]
+    
+    if mod != 0:
+        de = collections.deque(arr)
+        de.appendleft(np.arange(0, mod)) 
+        arr = list(de)
+        
+    returns_list = [arr, centers]
+    bools = [return_arr, return_centers]
+
+    return list(compress(returns_list, bools))
