@@ -97,7 +97,7 @@ def make_color_map(color_list, palette, filename, return_vals=True):
     
     start = datetime.now()
     for counter, color in enumerate(color_list):
-        if counter % 10e4 == 0:
+        if counter % 10e3 == 0:
             print("{}: {} elapsed".format(counter, datetime.now() - start))
             with open(filename, 'w') as outfile:
                 outfile.write(str(closest_color))
@@ -137,8 +137,9 @@ def get_dominant_color(img_file, palette_size=20, comp_time=False):
     palette = paletted.getpalette()
     color_counts = sorted(paletted.getcolors(), reverse=True)
     palette_index = color_counts[0][1]
-    dominant_color = palette[palette_index*3:palette_index*3+3]
-
+    dominant_color = np.array(palette[palette_index*3:palette_index*3+3]).reshape(1, 1, 3)
+   
     if comp_time == True:
         print("Elapsed time:{}".format(datetime.now() - start))
+
     return dominant_color
