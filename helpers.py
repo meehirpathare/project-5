@@ -192,7 +192,8 @@ def simplify_axis(ax, size=3, return_arr=False, return_centers=True):
         de = collections.deque(arr)
         de.appendleft(np.arange(0, mod)) 
         arr = list(de)
-        
+    
+    # returns are indices!
     returns_list = [arr, centers]
     bools = [return_arr, return_centers]
 

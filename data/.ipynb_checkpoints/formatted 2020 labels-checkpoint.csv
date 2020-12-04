@@ -1,0 +1,1104 @@
+attribute_id,label
+0,abruzzi
+1,achaemenid
+2,aegean
+3,afghan
+4,after british
+5,after german
+6,after german original
+7,after italian
+8,after russian original
+9,akkadian
+10,alexandria-hadra
+11,algerian
+12,alsace
+13,american
+14,american or european
+15,amsterdam
+16,ansbach
+17,antwerp
+18,apulian
+19,arabian
+20,aragon
+21,arica
+22,asia minor
+23,assyrian
+24,atlantic watershed
+25,attic
+26,augsburg
+27,augsburg decoration
+28,augsburg original
+29,austrian
+30,avignon
+31,avon
+32,aztec
+33,babylonian
+34,babylonian or kassite
+35,bactria-margiana archaeological complex
+36,balinese
+37,bavaria
+38,bayreuth
+39,beautiran
+40,beauvais
+41,belgian
+42,berlin
+43,birmingham
+44,boeotian
+45,bohemian
+46,bologna
+47,bordeaux
+48,bow
+49,brescia
+50,bristol
+51,british
+52,british or french
+53,british or scottish
+54,brunswick
+55,brussels
+56,burma
+57,burslem
+58,byzantine
+59,calima
+60,cambodia
+61,campanian
+62,canaanite
+63,canosan
+64,castel durante
+65,catalan
+66,catalonia
+67,caucasian
+68,caughley
+69,central asia
+70,central european
+71,central highlands
+72,central italian
+73,chalcidian
+74,chantilly
+75,chaumont-sur-loire
+76,chelsea
+77,chelsea-derby
+78,chimu
+79,china
+80,chinese with dutch decoration
+81,chinese with european decoration
+82,chinese with french mounts
+83,chiriqui
+84,chorrera
+85,chupicuaro
+86,colima
+87,colombian
+88,colonial
+89,colonial american
+90,copenhagen
+91,corinthian
+92,coromandel coast
+93,costa rica
+94,costa rica or panama
+95,cretan
+96,crete
+97,cyclades
+98,cycladic
+99,cypriot
+100,cypriot or phoenician
+101,czech
+102,danish
+103,deccan
+104,dehua
+105,delft
+106,derby
+107,deruta
+108,devonshire
+109,dresden
+110,dublin
+111,dutch
+112,dyak
+113,east greek
+114,east greek/sardis
+115,eastern european
+116,eastern mediterranean
+117,eastern mediterranean or italian
+118,edinburgh
+119,edomite
+120,egypt
+121,egyptian
+122,elamite
+123,england
+124,etruria
+125,etruscan
+126,euboean
+127,european
+128,european bronze age
+129,faliscan
+130,ferrara
+131,flemish
+132,flemish or italian
+133,florence
+134,for american market
+135,for british market
+136,for continental market
+137,for danish market
+138,for european market
+139,for french market
+140,for iberian market
+141,for portuguese market
+142,for russian market
+143,for swedish market
+144,frankenthal
+145,frankish
+146,freiburg im breisgau
+147,french
+148,french or german
+149,french or italian
+150,french or swiss
+151,fulda
+152,furstenberg
+153,gaul
+154,geneva
+155,genoa
+156,german
+157,german or swiss
+158,ghassulian
+159,gnathian
+160,gonia
+161,greek
+162,greek islands
+163,greek or roman
+164,guanacaste-nicoya
+165,gubbio
+166,gurkha
+167,haida
+168,hanau
+169,hattian
+170,helladic
+171,hilt
+172,hittite
+173,hochst
+174,huastec
+175,hungarian
+176,hungary
+177,huron
+178,ica
+179,inca
+180,india
+181,indian or nepalese
+182,indonesia
+183,inuit
+184,iran
+185,irish
+186,isin-larsa
+187,isin-larsaold babylonian
+188,islamic
+189,italian
+190,italian or sicilian
+191,italian or spanish
+192,italic
+193,italic-native
+194,japan
+195,javanese
+196,jouy-en-josas
+197,kathmandu valley
+198,kazakhstan
+199,kholmogory
+200,kievan rus'
+201,konigsberg
+202,korea
+203,la rochelle
+204,laconian
+205,lambayeque
+206,lambeth
+207,langobardic
+208,leuven
+209,lille
+210,limoges
+211,liverpool
+212,london
+213,london original
+214,longton hall
+215,lowestoft
+216,ludwigsburg
+217,lydian
+218,lyons
+219,macao
+220,macaracas
+221,macedonian
+222,madrid
+223,malayan
+224,mali
+225,manteno
+226,maya
+227,meissen
+228,meissen with german
+229,mennecy
+230,mennecy or sceaux
+231,mexican
+232,mezcala
+233,michoacan
+234,milan
+235,mimbres
+236,minoan
+237,mitanni
+238,mixtec
+239,moche
+240,moche-wari
+241,montelupo
+242,moro
+243,moroccan
+244,moustiers
+245,mughal
+246,muisca
+247,munich
+248,mycenaean
+249,nabataean
+250,nailsea
+251,nantes
+252,naples
+253,nasca
+254,naxos
+255,nayarit
+256,neo-sumerian
+257,neolithic
+258,nepal
+259,netherlandish
+260,neuwied am rhein
+261,nevers
+262,nimes
+263,north china
+264,north indian
+265,north italian
+266,north netherlandish
+267,northern european
+268,northern india
+269,northern italian
+270,northwest china
+271,northwest china/eastern central asia
+272,norwegian
+273,nuremberg
+274,nymphenburg
+275,old assyrian trading colony
+276,olmec
+277,orleans
+278,ottonian
+279,padua
+280,pakistan
+281,palermo
+282,paracas
+283,paris
+284,parita
+285,parthian
+286,parthian or sasanian
+287,peruvian
+288,pesaro
+289,philippine
+290,phrygian
+291,piedmont
+292,polish
+293,populonia
+294,portuguese
+295,potsdam
+296,praenestine
+297,proto-elamite
+298,provincial
+299,ptolemaic
+300,qajar
+301,quechua
+302,remojadas
+303,rhenish
+304,roman
+305,roman egyptian
+306,rome
+307,rouen
+308,russian
+309,saint-cloud
+310,salinar
+311,salzburg
+312,san sabastian
+313,sasanian
+314,savoy
+315,saxony
+316,scandinavian
+317,sceaux
+318,scottish
+319,scythian
+320,seleucid
+321,seville
+322,sevres
+323,sheffield
+324,sicily
+325,siena
+326,silesia
+327,sinceny
+328,skyros
+329,smyrna
+330,south german
+331,south italian
+332,south netherlandish
+333,southall
+334,southern german
+335,spanish
+336,spitalfields
+337,sri lankan
+338,st. petersburg
+339,staffordshire
+340,stockholm
+341,stoke-on-trent
+342,strasbourg
+343,sulawesi
+344,sumatran
+345,sumerian
+346,surrey
+347,swedish
+348,swiss
+349,syrian
+350,tairona
+351,tarentine
+352,teano
+353,teotihuacan
+354,thailand
+355,thanjavur
+356,the hague
+357,thessaly
+358,thuringia
+359,tibet
+360,tibetan
+361,tiwanaku
+362,tlatilco
+363,tlingit
+364,tolita-tumaco
+365,topara
+366,tsimshian
+367,turin
+368,turkish
+369,turkish or venice
+370,ubaid
+371,umbria
+372,united states
+373,unknown
+374,urartian
+375,urbino
+376,urbino with gubbio luster
+377,valencia
+378,venice
+379,veracruz
+380,veraguas
+381,verona
+382,versailles
+383,vienna
+384,vietnam
+385,villanovan
+386,villeroy
+387,vincennes
+388,visigothic
+389,vulci
+390,wari
+391,west slavic
+392,western european
+393,worcester
+394,wurzburg
+395,zenu
+396,zoroastrian
+397,zurich
+398,abbies
+399,abraham
+400,abstraction
+401,acanthus
+402,acorns
+403,acrobats
+404,actors
+405,actresses
+406,adam
+407,admirals
+408,adonis
+409,adoration of the magi
+410,adoration of the sheperds
+411,air transports
+412,alexander the great
+413,altars
+414,amazons
+415,amulets
+416,amun
+417,ancient greek
+418,angels
+419,anger
+420,animals
+421,anklet
+422,annunciation
+423,aphrodite
+424,apocalypse
+425,apollo
+426,apostles
+427,apples
+428,arabic
+429,archangel gabriel
+430,arches
+431,architects
+432,architectural elements
+433,architectural fragments
+434,architecture
+435,ariadne
+436,armors
+437,army
+438,arrowheads
+439,arrows
+440,artemis
+441,artists
+442,assumption of the virgin
+443,astronomy
+444,athena
+445,athletes
+446,autumn
+447,avalokiteshvara
+448,axes
+449,bacchus
+450,badges
+451,bagpipes
+452,bakers
+453,balconies
+454,bamboo
+455,baptism of christ
+456,barns
+457,baseball
+458,basins
+459,bathing
+460,bathsheba
+461,bats
+462,battles
+463,beaches
+464,beads
+465,beakers
+466,bears
+467,bedrooms
+468,beds
+469,bees
+470,belts
+471,benches
+472,benjamin franklin
+473,bes
+474,bible
+475,bicycles
+476,billiards
+477,birds
+478,bishops
+479,boars
+480,boats
+481,bobbins
+482,bodhisattva
+483,bodies of water
+484,body parts
+485,books
+486,boots
+487,bottles
+488,bow and arrow
+489,bowls
+490,boxes
+491,boxing
+492,boys
+493,bracelets
+494,bridges
+495,brooches
+496,buckles
+497,buddha
+498,buddhism
+499,buddhist religious figures
+500,buffalos
+501,buildings
+502,buildings and structures
+503,bulls
+504,burial grounds
+505,burials
+506,butterflies
+507,buttons
+508,cabinets
+509,calendars
+510,camels
+511,cameos
+512,canals
+513,candelabra
+514,candles
+515,candlesticks
+516,cannons
+517,capitals
+518,carpets and rugs
+519,carriages
+520,cartouches
+521,caryatids
+522,castles
+523,cathedrals
+524,cats
+525,cauldrons
+526,caves
+527,celestial bodies
+528,censers
+529,centaurs
+530,ceremony
+531,ceres
+532,chairs
+533,chalices
+534,chariots
+535,chess
+536,chests
+537,chickens
+538,children
+539,chinese
+540,chinoiserie
+541,christ
+542,christian imagery
+543,christianity
+544,christmas
+545,churches
+546,circles
+547,circus
+548,cities
+549,civil war
+550,cleopatra
+551,clocks
+552,clothing and accessories
+553,clouds
+554,coat of arms
+555,coats
+556,coffeepots
+557,coffins
+558,coins
+559,columns
+560,commodes
+561,concerts
+562,contemplation
+563,coptic
+564,cornucopia
+565,corpses
+566,correspondence
+567,corsets
+568,costumes
+569,couches
+570,couples
+571,courtyards
+572,coverlets and quilts
+573,cows
+574,crabs
+575,cradles
+576,cranes
+577,crescents
+578,crocodiles
+579,cross
+580,crowd
+581,crucifixion
+582,cuneiform
+583,cupid
+584,cups
+585,curtains
+586,cutlery
+587,daggers
+588,daily life
+589,daisies
+590,dance
+591,dancers
+592,dancing
+593,david
+594,dawn
+595,death
+596,decorative designs
+597,decorative elements
+598,deer
+599,deities
+600,demons
+601,descent from the cross
+602,deserts
+603,design elements
+604,desks
+605,devil
+606,diadems
+607,diamonds
+608,diana
+609,dice
+610,dining
+611,dionysus
+612,dishes
+613,docks
+614,doctors
+615,documents
+616,dogs
+617,dolls
+618,dolphins
+619,domes
+620,donkeys
+621,doors
+622,doorways
+623,doves
+624,dragons
+625,drawing
+626,dresses
+627,drinking
+628,drinking glasses
+629,drums
+630,drunkenness
+631,ducks
+632,durga
+633,eagles
+634,earrings
+635,easter
+636,egg and dart
+637,elephants
+638,emblems
+639,embroidery
+640,emperor augustus
+641,entombment
+642,eros
+643,esther
+644,europa
+645,eve
+646,evening
+647,ewers
+648,eyes
+649,facades
+650,faces
+651,factories
+652,fairies
+653,falcons
+654,family
+655,fans
+656,farmers
+657,farms
+658,fathers
+659,fauns
+660,fear
+661,feathers
+662,feet
+663,female nudes
+664,fire
+665,firearms
+666,fireplaces
+667,fireworks
+668,fish
+669,fishing
+670,flags
+671,flowers
+672,flutes
+673,fluting
+674,food
+675,footwear
+676,forests
+677,fortification
+678,fountains
+679,foxes
+680,friezes
+681,frogs
+682,fruit
+683,funerals
+684,funerary objects
+685,furniture
+686,gadrooning
+687,galatea
+688,games
+689,gardeners
+690,gardens
+691,garlands
+692,gates
+693,generals
+694,genre scene
+695,geometric patterns
+696,george washington
+697,gingham pattern
+698,girls
+699,globes
+700,gloves
+701,goats
+702,goblets
+703,goddess
+704,gods
+705,grapes
+706,greek deities
+707,greek figures
+708,griffins
+709,grotesques
+710,guitars
+711,hair
+712,hammers
+713,hands
+714,harps
+715,hathor
+716,hats
+717,hawks
+718,heads
+719,hell
+720,helmets
+721,hercules
+722,hermes
+723,hexagons
+724,hieroglyphs
+725,hills
+726,hilts
+727,hindu religious figures
+728,hinduism
+729,historical figures
+730,holofernes
+731,holy family
+732,horns
+733,horse riding
+734,horses
+735,horus
+736,hospitals
+737,houses
+738,human figures
+739,hunting
+740,illness
+741,incense burners
+742,infants
+743,inns
+744,inscriptions
+745,insects
+746,insignia
+747,interiors
+748,isis
+749,jackets
+750,jainism
+751,jars
+752,jason
+753,jesus
+754,jewelry
+755,jockeys
+756,journals
+757,judith
+758,jugs
+759,julius caesar
+760,juno
+761,jupiter
+762,kettles
+763,keys
+764,kings
+765,kitchens
+766,knives
+767,krishna
+768,lace
+769,ladders
+770,ladles
+771,lakes
+772,lambs
+773,lamentation
+774,lamps
+775,landforms
+776,landscapes
+777,last judgement
+778,last supper
+779,law
+780,leaves
+781,leda
+782,leopards
+783,lighting
+784,lions
+785,literature
+786,liturgical objects
+787,living rooms
+788,lizards
+789,lobsters
+790,lockets
+791,lotuses
+792,louis xiv
+793,love
+794,lovers
+795,lutes
+796,madonna and child
+797,maenads
+798,magicians
+799,maitreya
+800,male nudes
+801,mandolins
+802,manjushri
+803,manuscripts
+804,maps
+805,mark antony
+806,markets
+807,mars
+808,mary magdalene
+809,masks
+810,massacres
+811,medallions
+812,medea
+813,men
+814,merchants
+815,mercury
+816,mice
+817,military
+818,military clothing
+819,military equipment
+820,minerva
+821,mirrors
+822,monkeys
+823,monks
+824,monsters
+825,monuments
+826,moon
+827,moses
+828,mosques
+829,mothers
+830,mountains
+831,muses
+832,music
+833,musical instruments
+834,musicians
+835,mythical creatures
+836,mythology
+837,napoleon i
+838,nativity
+839,navy
+840,necklaces
+841,necktie
+842,neptune
+843,nero
+844,netsuke
+845,new testament
+846,night
+847,nike
+848,nonrepresentational art
+849,nymphs
+850,obelisks
+851,occupations
+852,octagons
+853,octopus
+854,old testament
+855,olive trees
+856,opera
+857,organs
+858,ornament
+859,orpheus
+860,owls
+861,painting
+862,paisley
+863,palaces
+864,palmettes
+865,pants
+866,parks
+867,parrots
+868,party
+869,peaches
+870,peacocks
+871,pediments
+872,pendants
+873,pentecost
+874,peonies
+875,percussion instruments
+876,performance
+877,perseus
+878,pheasants
+879,pianos
+880,pigeons
+881,pigs
+882,pilasters
+883,pinecones
+884,pins
+885,pitchers
+886,plants
+887,playing
+888,playing cards
+889,pocket watches
+890,poetry
+891,poets
+892,polka-dot pattern
+893,pomegranates
+894,ponds
+895,popes
+896,portraits
+897,poseidon
+898,princes
+899,princesses
+900,prisms
+901,prisoners
+902,prisons
+903,profiles
+904,prostitutes
+905,psyche
+906,punishment
+907,purses
+908,putti
+909,pyramids
+910,queens
+911,qur'an
+912,rabbits
+913,railways
+914,rain
+915,rams
+916,reading
+917,rectangles
+918,religious events
+919,religious texts
+920,reliquaries
+921,riding
+922,rings
+923,rivers
+924,roads
+925,robes
+926,roman deities
+927,roosters
+928,rosaries
+929,roses
+930,rowing
+931,ruins
+932,sadness
+933,sailors
+934,saint anne
+935,saint anthony
+936,saint catherine
+937,saint francis
+938,saint george
+939,saint jerome
+940,saint john the baptist
+941,saint john the evangelist
+942,saint joseph
+943,saint lawrence
+944,saint mark
+945,saint matthew
+946,saint michael
+947,saint paul
+948,saint peter
+949,saints
+950,samples
+951,sarcophagus
+952,satire
+953,satyrs
+954,saucers
+955,scarabs
+956,scarves
+957,schools
+958,scorpions
+959,screens
+960,scrolls
+961,sculpture
+962,seals
+963,seas
+964,seascapes
+965,seating furniture
+966,self-portraits
+967,serpents
+968,servants
+969,shakespeare
+970,shakyamuni
+971,sheep
+972,shells
+973,shepherds
+974,shields
+975,ships
+976,shirts
+977,shiva
+978,shoes
+979,sibyl
+980,silenus
+981,singers
+982,singing
+983,skeletons
+984,skirts
+985,skulls
+986,sky
+987,slavery
+988,sleep
+989,smoking
+990,snails
+991,snakes
+992,snow
+993,soldiers
+994,spears
+995,spectators
+996,sphinx
+997,sports
+998,spring
+999,squares
+1000,squirrels
+1001,stairs
+1002,stars
+1003,still life
+1004,stools
+1005,storage furniture
+1006,storms
+1007,strapwork
+1008,street scene
+1009,streets
+1010,stripes
+1011,students
+1012,suffering
+1013,suits
+1014,summer
+1015,sun
+1016,sundials
+1017,sunflowers
+1018,swans
+1019,sword guards
+1020,swords
+1021,tabernacles
+1022,tables
+1023,tablets
+1024,taoism
+1025,tapestries
+1026,taweret
+1027,tea caddy
+1028,tea drinking
+1029,teachers
+1030,teapots
+1031,telescopes
+1032,temples
+1033,tents
+1034,textile fragments
+1035,textiles
+1036,theatre
+1037,tigers
+1038,tombs
+1039,tools and equipment
+1040,towers
+1041,towns
+1042,toys
+1043,trains
+1044,transportation
+1045,trays
+1046,trees
+1047,triangles
+1048,tricorns
+1049,triton
+1050,trophies
+1051,trumpets
+1052,tulips
+1053,tunics
+1054,tureens
+1055,turtles
+1056,undergarment
+1057,uniforms
+1058,urns
+1059,utilitarian objects
+1060,vajrapani
+1061,vase fragments
+1062,vases
+1063,vegetables
+1064,venus
+1065,vestments
+1066,vests
+1067,victory
+1068,villages
+1069,vines
+1070,violas
+1071,violins
+1072,virgin mary
+1073,vishnu
+1074,volcanoes
+1075,vulcan
+1076,wagons
+1077,walking
+1078,wars
+1079,washing
+1080,watches
+1081,waterfalls
+1082,watermills
+1083,waves
+1084,weapons
+1085,weights and measures
+1086,wells
+1087,wind
+1088,windmills
+1089,windows
+1090,wine
+1091,winter
+1092,women
+1093,working
+1094,world war i
+1095,worshiping
+1096,wreaths
+1097,writing
+1098,writing implements
+1099,writing systems
+1100,zeus
+1101,zigzag pattern
+1102,zodiac
