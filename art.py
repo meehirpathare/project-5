@@ -197,7 +197,7 @@ class Art:
 
         return delta_e
     
-    def display_color(self, color_list, single_color=False,**params):
+    def display_color(self, color_list, display=True, single_color=False,**params):
         """
         plt
         Parameters:
@@ -222,10 +222,10 @@ class Art:
         
         palette = np.array(color_list, dtype=np.uint8)
         indices = np.array(list(range(0, len(palette)))).reshape(shape)
-        
-        plt.figure(**args)
-        io.imshow(palette[indices])
-        plt.axis('off')
+        if display == True:
+            plt.figure(**args)
+            io.imshow(palette[indices])
+            plt.axis('off')
 
     def palette_distance(self, input_color):
         palette = self.palette

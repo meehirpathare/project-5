@@ -161,7 +161,7 @@ def get_dominant_color(img_file, palette_size=20, comp_time=False):
     palette = paletted.getpalette()
     color_counts = sorted(paletted.getcolors(), reverse=True)
     palette_index = color_counts[0][1]
-    dominant_color = np.array(palette[palette_index*3:palette_index*3+3]).reshape(1, 1, 3)
+    dominant_color =  np.array(palette[palette_index*3:palette_index*3+3]).reshape(1, 1, 3)
    
     if comp_time == True:
         print("Elapsed time:{}".format(datetime.now() - start))
