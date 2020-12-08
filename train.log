@@ -1,0 +1,12 @@
+2020-12-07 14:36:55,302 INFO [Train model] start
+2020-12-07 14:39:00,620 INFO [Train model] start
+2020-12-07 14:39:55,079 INFO [Train model] start
+2020-12-07 14:41:24,460 INFO [Train model] start
+2020-12-07 14:42:51,574 INFO [Train model] start
+2020-12-07 14:43:55,421 INFO [Train model] start
+2020-12-07 14:47:53,398 INFO [Train model] start
+2020-12-07 14:56:08,316 INFO [Train model] start
+2020-12-07 21:14:25,838 DEBUG   Epoch 1 - avg_train_loss: 112.3598  avg_val_loss: 24.7932  time: 22698s
+2020-12-07 21:14:25,858 DEBUG   Epoch 1 - threshold: 0.08  f2_score: 0.22014945134320982
+2020-12-07 21:14:25,862 DEBUG   Epoch 1 - Save Best Score: 0.2201 Model  threshold: 0.08
+2020-12-07 21:14:26,236 DEBUG   Epoch 1 - Save Best Loss: 24.7932 Model
